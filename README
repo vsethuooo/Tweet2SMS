@@ -1,0 +1,13 @@
+I'm a newbie and this is my first repos in github. Sorry if the code is not structured.
+
+THe basic idea is to have your tweet to reach a group of phones.
+If you are a principal of a college, and wanna send SMS to all your staffs, this is the app for u.
+Just make a tweet on twitter, this app will send SMS to all ppl u wanna send it to.
+
+The main.php file gets all info from mysql db. It also uses a twitter API to get the latest tweets.
+You can make changes to the URL of the twitter api with respect to https://dev.twitter.com/docs/api/1
+
+If you have any clarifications, mail me at vsethuooo@gmail.com
+
+I'll attach the set of db queries to set up your mysql db
+ -Sethuooo :)
