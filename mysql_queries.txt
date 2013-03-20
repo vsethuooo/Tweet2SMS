@@ -1,0 +1,18 @@
+create database sms;
+
+use sms;
+
+create table users (phone varchar(20), name varchar(30));
+
+create table subscription (phone varchar(20), screen_name varchar(40), latest varchar(40));
+
+Sample Insertions
+
+insert into users values('9876543210','Sethu');
+
+insert into subscription values('9876543210','digitindia','12345');
+
+
+// Don't give the 'latest' value in the 'subscription' table as 0
+
+//In the subscription table add all the subscribers u want for your twitter account
